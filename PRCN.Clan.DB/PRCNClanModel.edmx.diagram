@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2edcedc54e6a4fa8b320a828b929d2c5" Name="Diagram1">
+        <EntityTypeShape EntityType="PRCNClanModel.Boss" Width="1.5" PointX="5.375" PointY="0.875" />
+        <EntityTypeShape EntityType="PRCNClanModel.Member" Width="1.5" PointX="0.75" PointY="5.875" />
+        <EntityTypeShape EntityType="PRCNClanModel.AttackRecord" Width="1.5" PointX="7.625" PointY="2.875" />
+        <AssociationConnector Association="PRCNClanModel.FK_AttackRecord_Boss" />
+        <AssociationConnector Association="PRCNClanModel.FK_AttackRecord_Member" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
